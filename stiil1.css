@@ -1,0 +1,120 @@
+
+
+.header{
+
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: black;
+    text-align: left;
+}
+.subheader{
+    
+    font-size: medium;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    text-align: left;
+}
+
+.Sissejuhatus{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: block;
+    text-align: center;
+}
+
+.Päritolu{
+    font-size: large;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-display: fallback;
+    text-align: justify;
+    line-height: 1.7;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.Peale_lõpetamist{
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display:block;
+    text-align: justify;
+    line-height: 1.7;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    align-items:last baseline;
+}
+
+.Peale_lõpetamisttekst{
+    grid-column: 2;
+}
+.Peale_lõpetamistpealkiri{
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display:block;
+    font-style: oblique;
+    text-align: justify;
+    line-height: 1.7;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-column: 2;
+
+}
+
+.Hobid{
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display:block;
+    text-align: justify;
+    line-height: 1.7;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    align-items:last baseline;
+}
+.Hobidtekst{
+    grid-column: 1;
+}
+.Hobidpealkiri{
+     color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display:block;
+    font-style: oblique;
+    text-align: justify;
+    line-height: 1.7;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-column: 1;
+}
+
+.Varia{
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display:block;
+    text-align: justify;
+    line-height: 1.7;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items:last baseline;
+}
+.Variatekst{
+    grid-column: 2;
+}
+.Variapealkiri{
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display:block;
+    font-style: oblique;
+    text-align: justify;
+    line-height: 1.7;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column: 2;
+
+}
