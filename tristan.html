@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Tristan</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="tristan-style.css">
+    <link rel="stylesheet" href="ühine_css.css">
+    <script defer src="tristan-skript.js"></script>
+
+    <title>Tristan</title>
 </head>
 <body>
-<h1>See on leht mis keskendub Tristani peale.</h1>
-<br>
-<img src = "https://thumbs.dreamstime.com/b/d-webpage-under-construction-concept-d-cartoon-characters-workers-wearing-vests-helmets-holding-jackhammer-laptop-114162972.jpg" alt = "placeholder" />
+    <button id="theme-toggle">🌙</button>
 
-</body></html>
+    <header>
+        <h1 class="header-title">Tristan</h1>
+        <h2 class="sub-title">Tere! Minu nimi on Tristan Paas ning olen 19-aastane esimese aasta informaatika tudeng Tartus. Kasvasin üless Tallinna juures äärelinnas ning nüüd elan Tartus korteris</h2>
+    </header>
+
+    <div class="dropdown-container">
+        <details>
+            <summary>Miks otsustasin õppida informaatikat?</summary>
+            <p>Olen juba lapsena palju kokku puutunud tehnoloogiaga, mängisin arvutimänge ning askeldasin failisüsteemis, et mängu kohandada omapärasemaks ning lisada Mod-e. Õppisin ise programmeerimist scratchis ja siis Pythonis keskkoolis ning õppisin täiendavalt juurde kooli raames 11. ja 12. klassis. Ehitasin ka ise oma arvuti ja olen sellel osi vahetanud. Seega teadsin algusest, et soovin tegeleda tehnika ja tarkvaraga, seega tundus informaatika ala mulle loogiline valik.</p>
+        </details>
+
+        <details>
+            <summary>Huvid</summary>
+            <p>Vabal ajal käin rattaga sõitmas, räägin sõpradega ning vaatan dokumentaal filme ning pildistan päikese loojanguid</p>
+        </details>
+
+        <details>
+            <summary>Mida soovin saada ülikoolist?</summary>
+            <p>Tean, et mulle meeldib IT, kuid pole kindel, milles spetsialiseeruda. Otsin vastust, et millises informaatika osas võiks olla mu tulevane töökoht. Soovin saada praktikale ja tööle võimalikult ägedasse firmasse, kus reaalselt naudiksin tööd ning loodan, et ülikool lihtsustab seda. Viimaks loodan leida inimesi, kellega teha lahedaid projekte.</p>
+        </details>
+
+        <details>
+            <summary>Suvaline fakt minu kohta</summary>
+              <div id="container">
+
+     <button onclick="generateFacts()">Näita fakti</button>
+     <div id="here"></div>
+
+
+</body>
+</html>
