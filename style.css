@@ -1,4 +1,6 @@
+.Main{
 
+}
 
 .header{
     background-image: url("numbrid.jpg");
@@ -18,8 +20,154 @@
 }
 
 .Sissejuhatus{
-    font-size: medium;
+    font-size: large;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-display: block;
     text-align: center;
+    
+}
+
+.Algus{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 40% 60%;
+}
+.Algustekst{
+    font-size: larger;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: block;
+    text-align: justify;
+    line-height: 1.7;
+    grid-column: 1;
+}
+.Alguspilt{
+    grid-column: 2;
+    width: 90% ;
+    height: auto;
+    align-items: center;
+}
+.Alguspilditekst{
+    grid-column: 2;
+    font-size: large;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: block;
+    text-align: center;
+}
+
+.Suunamine{
+    font-size: large;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: block;
+    line-height: 1.7;
+    display: grid;
+    grid-template-columns: 33% 34% 33%
+}
+.Suunaminetekst{
+
+    grid-column: 1 / span 3;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.Joonatan{
+    grid-column: 1;
+    border-style: double;
+    border-radius: 20px;
+    text-align: center;
+}
+.Karl{
+    grid-column: 2;
+    border-style: double;
+    border-radius: 20px;
+    text-align: center;
+}
+.Tristan{
+    grid-column: 3;
+    border-style: double;
+    border-radius: 20px;
+    text-align: center;
+}
+.game-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.instruction {
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.choice-btn {
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Roheline vaikimisi */
+    color: white;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.choice-btn:hover:not([disabled]) {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+.choice-btn:disabled {
+    cursor: default;
+    opacity: 0.6;
+}
+
+#feedback {
+    min-height: 30px; /* Hoiab ruumi tagasiside jaoks */
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.hidden-feedback {
+    display: none;
+}
+
+/* Tagasiside värvid */
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+#restart-btn {
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#restart-btn:hover {
+    background-color: #0056b3;
 }
