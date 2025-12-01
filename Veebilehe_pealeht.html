@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="et">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veebileht</title>
-    <link rel="stylesheet" type="text/css" href="style.css" 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="ühine_css.css"> 
 </head>  
 <body>
     
     <div class="Main">
-    </div>
+    
 
             
         <div class="header">
@@ -23,7 +24,7 @@
         <p>Antud veebileht on valmimas/valminud TÜ Informaatika bakalaureuse õppekava aine Sissejuhatus
            erialasse (LTAT.03.002) veebilehe rühmatöö raames. </p>
          
-         </p>
+        
         </div>
         <div class="Algus">
             <div class="Algustekst">
@@ -40,10 +41,7 @@
             </p>
             </div>
             <div class="Alguspilt">
-                <img src="kriipsujukud.jpg" alt="Koostöö viib edasi" class="Alguspilt">              
-            </div>
-            <div class="Alguspilditekst">
-                <p>Koostöö viib edasi!</p>
+                <img src="kriipsujukud.jpg" alt="Koostöö viib edasi" class="Alguspilt">  <!--https://www.w3schools.com/html/html_images.asp-->            
             </div>
         </div>
 
@@ -55,17 +53,25 @@
             </div>
         
         <div class="Joonatan">
+            <a href="joonatan.html" target="_blank">
             <h1> Joonatan</h1>
+            </a>
         </div>
         <div class="Karl">
+            <a href="karl.html" target="_blank">
             <h1>Karl</h1>
+            </a>
         </div>
         <div class="Tristan">
+            <a href="tristan.html" target="_blank">
             <h1>Tristan</h1>
+            </a>
         </div>
 
         </div>
-        
+        <div class="Mäng">
+            <p>Kui oled meie vahelehed läbi käinud, siis võid proovida mängida meist mängu.</p>
+        </div>
         <!--Genereeritud Google Geminiga -->
         <div class="game-container">
         <h2>2 Tõde ja 1 Vale</h2>
@@ -219,6 +225,6 @@
         nextRoundBtn.addEventListener('click', loadNext);
     });
     </script>
-
+    </div>
 
 </body>  
