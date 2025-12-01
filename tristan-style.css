@@ -1,5 +1,10 @@
-body {
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+body {
     /* mode vahetamise üleminek */
     transition: background 0.5s ease, color 0.5s ease;
 
@@ -8,6 +13,14 @@ body {
     color: #001f3f;
 }
 
+.pildi-hoidja {
+    text-align: center;
+}
+.pilt {
+    width : 25%;
+    height: auto;
+    text-align: center;
+}
 /* tausta gradient darkmode*/
 body.dark-mode {
     background: linear-gradient(to bottom, #00112a 0%, #025db8 100%);
@@ -29,27 +42,12 @@ body.dark-mode {
     transition: background 0.3s ease, color 0.3s ease;
 }
 
-
-
-/* -----------------------------
-   FADE-IN PILT
------------------------------ */
-.image-container {
-    width: 100%;
+.header {
     text-align: center;
-    margin-top: 40px;
 }
 
-.fade-image {
-    width: 80%;
-    opacity: 0;
-    transform: translateY(40px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
-}
-
-.fade-image.visible {
-    opacity: 1;
-    transform: translateY(0);
+.sub-title {
+    text-align: center;
 }
 
 p, summary {
