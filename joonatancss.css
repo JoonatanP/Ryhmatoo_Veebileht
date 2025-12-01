@@ -1,13 +1,26 @@
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/--* */
+/* Peamised allikad mida kasutasin on CSS-Tricks ja developer.mozilla.org materjale.
+CSS custom properties : https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
+box-sizing : https://css-tricks.com/box-sizing/ 
+CSS Flexbox juhend : https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+Border Radius : https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-radius 
+Box Shadows : https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow
+Tausta gradient : https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient 
+Üldised stiili juhendid : https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/margin
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/padding
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-align */
+
+
+/* CSS Custom Properties */
 :root { 
     --card-bg: #0b1120;
     --accent: #38bdf8;
 }
-
+/*box-sizing*/
 * {
     box-sizing: border-box;
 }
 
+/* Tausta gradient ja MDN allikast margin ja padding juhendid*/
 body {
     margin: 0;
     padding: 0;  
@@ -16,6 +29,7 @@ body {
 
 }
 
+/*Üldised MDN allikast juhendind tekstijoonduse, paddingu ja margini kohta*/
 .header{
     text-align: center;
     padding: 40px 20px;
@@ -71,6 +85,7 @@ body {
     margin-bottom: 6px;
 }
 
+/* Flexbox juhendist piltide paigutus*/
 .pildid-flex {
     display: flex;
     gap: 20px;
