@@ -1,9 +1,7 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/--* */
 :root { 
-    --bg: #000000;
     --card-bg: #0b1120;
     --accent: #38bdf8;
-    
-
 }
 
 * {
