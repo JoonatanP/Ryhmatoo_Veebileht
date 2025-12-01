@@ -25,16 +25,27 @@
 }
 
 .Päritolu{
+    font-family: Arial;
+    font-display: fallback;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+.Päritolutekst{
     font-size: large;
     color: black;
     font-family:Arial, Helvetica, sans-serif;
     font-display: fallback;
     text-align: justify;
     line-height: 1.7;
-    display: grid;
-    grid-template-columns: 55% 45%;
+    grid-column: 1;
+    text-align: justify;   
 }
-
+.Päritolupilt{
+    grid-column: 2;
+    width: 90% ;
+    height: auto;
+    align-items: center;
+}
 .Peale_lõpetamist{
     color: black;
     font-size: large;
@@ -115,6 +126,37 @@
     line-height: 1.7;
     display: grid;
     grid-template-columns: 60% 40%;
+    grid-column: 2;    
+}
+.Tulevik{
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display:block;
+    text-align: justify;
+    line-height: 1.7;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.Tulevikutekst{
+    grid-column: 1;
+}    
+.Tulevikupealkiri{
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display:block;
+    font-style: oblique;
+    text-align: justify;
+    line-height: 1.7;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column: 1;    
+}
+.Tulevikupilt{
     grid-column: 2;
-
+    width: 90% ;
+    height: auto;
+    justify-self: right;
+    padding: 10 px;
 }
